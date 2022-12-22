@@ -18,6 +18,6 @@ module.exports = {
   ],
   rules: {
     'react/prop-types': 'off',
-    'react/function-component-definition': [2, { "namedComponents": "arrow-function" }]
+    'react/function-component-definition': [2, { 'namedComponents': 'arrow-function'} ]
   },
 };

@@ -1,10 +1,10 @@
 {
-  "name": "atha-yoga",
+  "name": "atha.yoga1",
   "version": "1.0.0",
   "description": "''",
   "main": "index.jsx",
   "scripts": {
-    "dev": "webpack serve",
+    "dev": "webpack serve --mode=development",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,9 +12,29 @@
   "author": "Dobranet",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.10.14",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@svgr/webpack": "^6.5.1",
+    "axios": "^1.2.0",
+    "file-loader": "^6.2.0",
+    "formik": "^2.2.9",
+    "json-server-auth": "^2.1.0",
     "node-sass": "^8.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.4",
+    "react-swipeable-views": "^0.14.0",
+    "react-swipeable-views-utils": "^0.14.0",
+    "url-loader": "^4.1.1",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",

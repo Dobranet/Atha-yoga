@@ -1,8 +1,16 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-// eslint-disable-next-line import/extensions
-import App from './app/index.jsx';
+import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+import store from './store';
+import Root from './App.jsx';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
-root.render(<App />);
+root.render(
+  <Provider store={store}>
+    <BrowserRouter>
+      <Root />
+    </BrowserRouter>
+   </Provider>,
+);
